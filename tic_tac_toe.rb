@@ -20,7 +20,7 @@ class Player
   end
 end
 
-class TicTocToe
+class TicTacToe
   attr_reader :player_one, :player_two, :current_player, :game_board, :player_move, :check_board, :current_player_win
 
   def initialize
